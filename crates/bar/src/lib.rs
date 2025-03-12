@@ -8,7 +8,7 @@ pub mod nope {
     }
 
     // if there isn't a second function here (the name doesn't matter)
-    // that also has #[no_mangle], then wasm-bindgen will succeed    // then wasm-bindgen will succeed
+    // that also has #[no_mangle], then wasm-bindgen will succeed
     #[no_mangle]
     pub fn why() -> u32 {
         0
