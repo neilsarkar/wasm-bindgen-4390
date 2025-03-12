@@ -1,0 +1,12 @@
+[package]
+name = "foo"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+bar = { path = "../bar" }
+wasm-bindgen = "=0.2.100"
+
+[lib]
+name = "foo"
+crate-type = ["cdylib"]
